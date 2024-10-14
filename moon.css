@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+*{
+    font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: url('moon.png') , auto;
+}
+
+body {
+    background: black;
+    color: white;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+cursor: url('moon.png') , auto;
+
+    
+}
+
+div {
+    width: 130px;
+    height: 130px;
+    background: url(moon.png) no-repeat center/120% border-box;
+    border-radius: 50%;
+    margin:0 auto 50px auto;
+    box-shadow: 0 0 300px 20px white , 0 0 10px 2px white inset;
+    transition: all 2s ;
+}
+div:hover{
+    box-shadow: 0 0px 5px 0.01px white , 0 0 50px 2px white inset;
+    margin:60% auto 30000px auto;
+    transform :scale(2.1);
+    transition: all 2s;
+    cursor: none;
+}
+form{
+    text-align:center;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+    
+}
+input{
+    outline:none;
+    disply:block;
+    border:none;
+    border-left:7px solid #ffffff;
+    font-size: 19px;
+    padding: 11px 5px;
+   /* text-transform: uppercase;*/
+    text-shadow: 0 0 20px white;
+    background:black;
+    width: 50%;
+    color: white;
+    background: url(moon.png) no-repeat center/200%  ;
+    opacity:0.5;
+    margin: 5px auto 35px auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    transition: all 0.1s;
+    box-shadow: 0 0 8px 0.3px #ffffff;
+    font-variant: small-caps;
+    cursor: url('moon.png') , auto;
+}
+label{
+    display:block;
+    position: relative;
+    right: 20%;
+    
+}
+input::placeholder{
+    color: white ;
+    transform: translateY(-5px)
+}
+input:focus{
+    outline:none;
+    disply:block;
+    border:none;
+    border-bottom:7px solid #ffffff;
+    font-size: 21px;
+    padding:11px 5px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px white;
+    background:black;
+    width: 55%;
+    color: white;
+    background: url(moon.png) no-repeat center/200%  ;
+    opacity:0.4;
+    margin: 5px auto 15px auto;
+    padding-left: 10px;
+    box-shadow: 0 0 5px 0.3px #ffffff , 0 0 10px 1px #ffffff inset;
+    cursor: none;
+    transition:all 0.1s;
+}
+button{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin:60px auto;
+    border-radius:50%;
+    background: url(moon.png) no-repeat center/150%;
+    border : none;
+    border-top: 2px solid #707070ed;
+    border-left: 2px solid #707070ed;
+    border-right: 3px solid #86868f;
+    border-bottom: 3px solid #86868f;
+    color: #c2c2c2ed;
+    font-weight: 900;
+    text-shadow:0 0 10px white;
+    box-shadow: 0 0 10px 0.1px white , 0 0 10px 2px white inset;
+    outline:none;
+    cursor: url('moon.png') , auto;
+    
+    
+}
+button:focus{
+    border-bottom: 2px solid #707070ed;
+    border-right: 2px solid #707070ed;
+    border-left: 3px solid #86868f;
+    border-top: 3px solid #86868f;
+    box-shadow: 0 0 100px 10px white , 0 0 2px 1px white inset;
+    transform : rotate(720deg);
+    transition:all 2s;
+    
+}
+button:hover{
+    border-bottom: 2px solid #707070ed;
+    border-right: 2px solid #707070ed;
+    border-left: 3px solid #86868f;
+    border-top: 3px solid #86868f;
+    box-shadow: 0 0 100px 10px white , 0 0 2px 1px white inset;
+    transform : rotate(720deg);
+    transition:all 2s;
+    
+}
+::selection{
+    background: #86868f;
+    color:white;
+}
+input:focus::placeholder{
+    transform: translateX(700px);
+    transition: all 4s;
+}
